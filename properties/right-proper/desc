@@ -1,0 +1,7 @@
+A model structure on a category $\mathbf{C}$ is said to be \emph{right-proper} if for every weak equivalence $A \to B$, and fibration $C \to B$, the map $f$ in the following pullback is also a weak equivalence:
+$$
+\xymatrix{
+P \ar@{}[dr]|<<<{\text{\pigpenfont A}}  \ar[r] \ar[d]_f& A \ar[d]^{\in \mathcal{W}_\mathbf{C}}  \\
+		C \ar[r]_{\in \mathcal{F}_\textbf{C} } &  B\rlap{ .}
+}
+$$
