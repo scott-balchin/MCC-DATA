@@ -1,0 +1,1 @@
+An object $X \in \textbf{C}$ is \emph{fibrant} if the unique morphism to the terminal object $X \to \ast $ is a fibration.  Note that if all objects are fibrant, then the model structure must be right-proper.
