@@ -1,2 +1,2 @@
 # MCC-DATA
-Data for the MCC project.
+Data files for the MCC project, which aims to collect examples and properties of Quillen model structures.
