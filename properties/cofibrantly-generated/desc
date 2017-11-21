@@ -1,0 +1,1 @@
+A model structure on a category $\textbf{C}$ is \textit{cofibrantly generated} if there is a set of cofibrations and a set of trivial cofibrations which generate all other (trivial) cofibrations via retracts of transfinite composition of pushouts and coproducts.
