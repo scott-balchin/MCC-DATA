@@ -2,6 +2,7 @@
 uid: P002
 slug: right-proper
 name: Right-Proper
+abbreviation: RP
 ---
 A model structure on a category $\mathbf{C}$ is said to be \emph{right-proper} if for every weak equivalence $A \to B$, and fibration $C \to B$, the map $f$ in the following pullback is also a weak equivalence:
 $$
