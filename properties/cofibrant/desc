@@ -1,0 +1,1 @@
+An object $X \in \textbf{C}$ is \emph{cofibrant} if the unique morphism from the initial object $0 \to X $ is a cofibration.  Note that if all objects are cofibrant, then the model structure must be left-proper.
