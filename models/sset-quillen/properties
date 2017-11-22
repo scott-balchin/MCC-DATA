@@ -1,6 +1,6 @@
 left-proper:Y
 right-proper:Y
-cofibrant:Y
+cofibrant:N
 fibrant:N
 cofibrantly-generated:Y
 combinatorial:Y
