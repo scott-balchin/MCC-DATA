@@ -1,4 +1,4 @@
-A (symmetric) monoidal model category is a model category $\mathbf{C}$ equipped with a closed (symmetric) monoidal structure $(\mathbf{C}, \otimes, I)$ such that the two following compatibility conditions are satisfied:
+A model structure $\mathbf{C}$ is \emph{(symmetric) monoidal} if it is equipped with a closed (symmetric) monoidal structure $(\mathbf{C}, \otimes, I)$ such that the two following compatibility conditions are satisfied:
 \begin{enumerate}
 \item (Pushout-product axiom) For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their pushout-product
 $$(X \otimes Y') \bigsqcup_{X \otimes X'} (Y \otimes X')\to Y \otimes Y'$$
