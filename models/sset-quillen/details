@@ -35,5 +35,5 @@ $\textbf{sSet}_\text{Kan}$ is a proper, simplicial model category. Note, in part
 \subsection{Additional Information}
 
 \begin{itemize}
-\item $\textbf{sSet}_\text{Kan}$ can be obtained as a left Bousfield localisation of \hyperref[sset-joyal{$\textbf{sSet}_\text{Joyal}$} at the class of outer horn inclusions (i.e., horns where $k=0,n$).
+\item $\textbf{sSet}_\text{Kan}$ can be obtained as a left Bousfield localisation of \hyperref[sset-joyal]{$\textbf{sSet}_\text{Joyal}$} at the class of outer horn inclusions (i.e., horns where $k=0,n$).
 \end{itemize}
