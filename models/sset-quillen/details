@@ -1,17 +1,17 @@
-\subsection{Description of Category}
+\subsection{Description of the Underlying Category}
 
-Let $\Delta$ be the simplex category, and $\textbf{sSet} := \textbf{Set}^{\Delta^{op}}$ the category of simplicial sets.  
-
-\begin{definition}\label{index:horn}
-Let $\Delta[n] = \Delta(-,[n])$ be the standard $n$-simplex in $\textbf{sSet}$.  For each $0 \leq i \leq n$, the \textit{$(n,i)$-horn} is the sub-simplicial set $\Lambda^i[n] \hookrightarrow \Delta[n]$ which is the union of all faces except the $i^\text{th}$ one.  We say the horn is \textit{outer} if $k=0,n$, and \textit{inner} otherwise.
-\end{definition}
+Let $\Delta$ be the simplex category.  That is, $\Delta$ is the category whose objects are linearly ordered sets $[n]=\{0,1,.dots,n\}$ for $n \geq 0$, and whose morphisms are order preserving functions.  The category of \emph{simplicial sets} is then the presheaf category $\textbf{sSet} := \textbf{Set}^{\Delta^{op}}$.
 
 \subsection{Description of Model}
 
 \begin{definition}
-A map of simplicial sets $f \colon X \to Y$ is a \textit{Kan fibration} if it has the right lifting property for all horn inclusions.  That is, we have the following commutative diagram:
+Let $\Delta[n] = \Delta(-,[n])$ be the standard $n$-simplex formed via the Yoneda embedding in $\textbf{sSet}$.  For each $0 \leq i \leq n$, the \emph{$(n,i)$-horn} is the sub-simplicial set $\Lambda^i[n] \hookrightarrow \Delta[n]$ which is the union of all faces except the $i^\text{th}$ one.
+\end{definition}
+
+\begin{definition}
+A map of simplicial sets $f \colon X \to Y$ is a \textit{Kan fibration} if it has the right lifting property for all horn inclusions.  That is, for all $0 \leq k \leq n$, we have the following commutative diagram:
 $$\xymatrix{\Lambda^k[n] \ar[d] \ar[r] & X \ar[d]^f \\
-\Delta[n] \ar[ur]^{\exists} \ar[r] & Y}$$
+\Delta[n] \ar[ur]|{\exists} \ar[r] & Y}$$
 \end{definition}
 
 \begin{definition}
@@ -34,4 +34,6 @@ $\textbf{sSet}_\text{Kan}$ is a proper, simplicial model category. Note, in part
 
 \section{Additional Information}
 
-$\textbf{sSet}_\text{Kan}$ can be obtained as a left Bousfield localisation of $\textbf{sSet}_\text{Joyal}$ at the class of outer horn inclusions. 
+\begin{itemize}
+\item $\textbf{sSet}_\text{Kan}$ can be obtained as a left Bousfield localisation of \hyperref[sset-joyal{$\textbf{sSet}_\text{Joyal}$ at the class of outer horn inclusions (i.e., horns where $k=0,n$).
+\end{itemize}
