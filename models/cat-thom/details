@@ -31,14 +31,14 @@ For a simplicial set $X$, we denote by $\text{sd}(X)$ its standard barycentric s
 	\end{tikzpicture}
 	\caption{Barycentric Subdivision of $\Delta[2]$.}
 \end{figure}
-Let $N \colon \textbf{Cat} \to \widehat{\Delta}$ denote the nerve functor with left adjoint $c$.  We then wish to lift the model structure of $\widehat{\Delta}$ to $\textbf{Cat}$ via the functor $\text{Ex}^2N$:
-\begin{equation}
+Let $N \colon \textbf{Cat} \to \widehat{\Delta}$ denote the nerve functor with left adjoint $c$.  We then wish to lift the model structure of $\textbf{sSet}$ to $\textbf{Cat}$ via the functor $\text{Ex}^2N$:
+\begin{equation*}
 	\begin{gathered}
 		\xymatrixcolsep{3pc}\xymatrix{
 			\widehat{\Delta} \ar@/^1pc/[r]^{\text{sd}^2} \ar@{}[r]|\bot & \widehat{\Delta} \ar@/^1pc/[l]^{\text{Ex}^2}  \ar@/^1pc/[r]^{\text{c}} \ar@{}[r]|\bot & \textbf{Cat} \ar@/^1pc/[l]^{\text{N}}
 		}
 	\end{gathered}
-\end{equation}
+\end{equation*}
 
 \begin{proposition}[{\cite[\S 3]{Tho80}}]
 	There is a model structure on $\textbf{Cat}$ where a functor $F \colon \mathcal{C} \to \mathcal{D}$ is a:
