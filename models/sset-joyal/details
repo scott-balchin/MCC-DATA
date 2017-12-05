@@ -1,6 +1,19 @@
 \subsection{Description of the Underlying Category}
 
-Let $\Delta$ be the simplex category.  That is, $\Delta$ is the category whose objects are linearly ordered sets $[n]=\{0,1,.dots,n\}$ for $n \geq 0$, and whose morphisms are order preserving functions.  The category of \emph{simplicial sets} is then the presheaf category $\textbf{sSet} := \textbf{Set}^{\Delta^{op}}$.  For more information on this category, see \cite{Rie08,May67,Fri12}.
+Let $\Delta$ be the simplex category.  That is, $\Delta$ is the category whose objects are linearly ordered sets $[n]=\{0,1,.dots,n\}$ for $n \geq 0$, and whose morphisms are order preserving functions.  The category of \emph{simplicial sets} is then the presheaf category $\textbf{sSet} := \textbf{Set}^{\Delta^{op}}$.  We can provide a combinatorial description of simplicial objects as follows.
+
+\begin{definition}
+A \textit{simplicial set} $X_\bullet$ is a collection of sets $X_n$ for all $n \geq 0$, and for each $n$ we have \textit{face maps} $d_i \colon X_n \to X_{n-1}$  and \textit{degeneracy maps} $s_i \colon X_n \to X_{n+1}$ satisfying the following relations:
+$$d_i  d_j = d_{j-1} d_i \qquad 0 \leq i < j \leq n$$
+$$s_i s_j= s_{j+1} s_{i} \qquad \; 0 \leq i \leq j < n$$
+$$d_i s_j = \begin{cases}
+ s_{j-1} d_i & \quad \qquad 0 \leq i < j < n \\
+  \text{Id} & \qquad  \quad 0 \leq j < n \text{ and } i=j \text{ or } i=j+1 \\
+  s_j d_{i-1} & \qquad \quad 0 \leq j \text{ and } j+1 < i \leq n
+\end{cases}$$
+\end{definition}
+
+For more information on this category, see \cite{Fri12,May67,Rie08}.
 
 \subsection{Description of Model}
 
