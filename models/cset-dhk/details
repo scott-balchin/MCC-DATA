@@ -1,1 +1,19 @@
-details go here
+\subsection{Description of the Underlying Category}
+
+The \textit{cyclic category} is the category $\dC$ equipped with an embedding $i \colon \Delta \to \dC$ such that:
+\begin{enumerate}
+\item The functor $i$ is bijective on objects (i.e., $\text{Ob}(\dC) = \text{Ob}(\Delta)$).
+\item Any morphism $u \colon i[m] \to i[n]$ in $\dC$ can be uniquely written as $i(\phi) \circ g$ where $\phi \colon [m] \to [n]$ is a morphism in $\Delta$ and $g \in C_{n+1}$.  We call this decomposition the \textit{canonical decomposition}.  We will denote by $\tau_n$ the generator of $C_{n+1}$.
+\end{enumerate}
+
+The category of cyclic sets is then the presheaf categogry on $\Delta \mathfrak{C}$.  That is, $\textbf{cSet} := \textbf{Set}^{\Delta \mathfrak{C}^{op}}$.
+
+\subsection{Description of Model}
+
+
+
+\subsection{Additional Information}
+
+\begin{itemize}
+\item $\textbf{cSet}_\text{Kan}$ is Quillen equivalent to the model structure on $\textbf{Top}^{SO(2)}$ where a map is a weak equivalence if the underlying map of topological spaces is a weak equivalence.
+\end{itemize}
