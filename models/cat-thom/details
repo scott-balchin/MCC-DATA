@@ -62,5 +62,5 @@ The cofibrant objects in this model structure are exactly posets, this is explor
 \subsection{Additional Information}
 
 \begin{itemize}
-\item $\textbf{Cat}_\text{Thom}$ is Quillen equivalent to \hyperref[sset-quillen]{$\textbf{sSet}_\text{Quillen}$}
+\item From the construction, we see that $\textbf{Cat}_\text{Thom}$ is Quillen equivalent to \hyperref[sset-quillen]{$\textbf{sSet}_\text{Quillen}$}.
 \end{itemize}
