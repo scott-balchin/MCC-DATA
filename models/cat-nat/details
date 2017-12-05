@@ -4,8 +4,16 @@ We will denote by $\textbf{Cat}$ the (large) 1-category whose objects are small 
 
 \subsection{Description of Model}
 
+\begin{definition}
+A functor $F \colon \mathbf{C} \to \mathbf{D}$ is an \emph{equivalence of ctegories} if it is fully faithful and essentially surjective.
+\end{definition}
+
+\begin{definition}
+A functor $F \colon \mathbf{C} \to \mathbf{D}$ is an \emph{isofibration} if for any object $c \in \mathbf{C}$, and any isomorphism $\phi \colon F(c) \cong d$, there exists an isomorphism $\psi \colon c \cong c'$ such that $F(\psi)=phi$.
+\end{definition}
+
 \begin{proposition}[{\cite[Theorem 3.1]{Rez96}}]
-There is a cofibrantly generated model structure on $\textbf{Cat}$, called the \emph{natural model structure}, and denoted $\textbf{Cat}_\text{Nat}$, where a functor $f \colon X \to Y$ is a:
+There is a cofibrantly generated model structure on $\textbf{Cat}$, called the \emph{natural model structure}, and denoted $\textbf{Cat}_\text{Nat}$, where a functor $F \colon \mathbf{C} \to \mathbf{D}$ is a:
 \begin{itemize}
 \item Weak equivalence if it is an equivalence of categories.
 \item Fibration if it is an isofibration.
