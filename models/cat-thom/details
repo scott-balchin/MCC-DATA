@@ -1,1 +1,57 @@
-details will go here!
+\subsection{Description of the Underlying Category}
+
+We will denote by $\textbf{Cat}$ the (large) 1-category whose objects are small categories and whose morphisms are functors.
+
+\subsection{Description of Model}
+
+For a simplicial set $X$, we denote by $\text{sd}(X)$ its standard barycentric subdivision.  Let $\text{Ex}(X)$ be the left adjoint to $\text{sd}(X)$, this is the functor used in Kan's fibrant replacement construction~\cite{Kan57}.
+
+ \begin{figure}[ht!]
+	\centering
+	\begin{tikzpicture}[scale = 0.3]
+		\begin{scope}[thick,decoration={
+			    markings,
+			    mark=at position 0.5 with {\arrow{>}}}
+			    ] 
+			\draw[postaction={decorate}]  (0,0) --(5,0);
+			\draw[postaction={decorate}]  (10,0) --(5,0);
+			\draw[postaction={decorate}]  (0,0) -- (2.5,4.33);
+			\draw[postaction={decorate}]  (5,8.66) -- (2.5,4.33);
+			\draw[postaction={decorate}]  (5,8.66) -- (7.5,4.33);
+			\draw[postaction={decorate}]  (10,0) -- (7.5,4.33);
+			
+			\draw[postaction={decorate}]  (5,0) -- (5,2.88);
+			\draw[postaction={decorate}]  (2.5,4.33) -- (5,2.88);
+			\draw[postaction={decorate}]  (7.5,4.33) -- (5,2.88);
+			
+			\draw[postaction={decorate}]  (0,0) -- (5,2.88);
+			\draw[postaction={decorate}]  (5,8.33) -- (5,2.88);
+			\draw[postaction={decorate}]  (10,0) -- (5,2.88);
+		\end{scope}
+	\end{tikzpicture}
+	\caption{Barycentric Subdivision of $\Delta[2]$.}
+\end{figure}
+Let $N \colon \textbf{Cat} \to \widehat{\Delta}$ denote the nerve functor with left adjoint $c$.  We then wish to lift the model structure of $\widehat{\Delta}$ to $\textbf{Cat}$ via the functor $\text{Ex}^2N$:
+\begin{equation}
+	\begin{gathered}
+		\xymatrixcolsep{3pc}\xymatrix{
+			\widehat{\Delta} \ar@/^1pc/[r]^{\text{sd}^2} \ar@{}[r]|\bot & \widehat{\Delta} \ar@/^1pc/[l]^{\text{Ex}^2}  \ar@/^1pc/[r]^{\text{c}} \ar@{}[r]|\bot & \textbf{Cat} \ar@/^1pc/[l]^{\text{N}}
+		}
+	\end{gathered}
+\end{equation}
+
+\begin{proposition}[{\cite[\S 3]{Tho80}}]
+	There is a model structure on $\textbf{Cat}$ where a functor $F \colon \mathcal{C} \to \mathcal{D}$ is a:
+	\begin{itemize}
+		\item Weak equivalence if $\text{Ex}^2\text{N}(F) \colon \text{Ex}^2\text{N}(\mathcal{C}) \to \text{Ex}^2\text{N}(\mathcal{D})$ is a weak equivalence in $\widehat{\Delta}$.
+		\item Fibration if $\text{Ex}^2\text{N}(F) \colon \text{Ex}^2\text{N}(\mathcal{C}) \to \text{Ex}^2\text{N}(\mathcal{D})$ is a fibration in $\widehat{\Delta}$.
+		\item Cofibration if it has the LLP with respect to trivial fibrations.
+	\end{itemize}
+	We call this model structure the \emph{Thomason model structure on $\textbf{Cat}$} and denote it $\textbf{Cat}_\text{Thom}$.
+\end{proposition}
+
+\subsection{Additional Information}
+
+\begin{itemize}
+\item $\textbf{Cat}_\text{Thom}$ is Quillen equivalent to \hyperref[sset-quillen]{$\textbf{sSet}_\text{Quillen}$}
+\end{itemize}
