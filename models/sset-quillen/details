@@ -1,6 +1,6 @@
 \subsection{Description of the Underlying Category}
 
-Let $\Delta$ be the simplex category.  That is, $\Delta$ is the category whose objects are linearly ordered sets $[n]=\{0,1,.dots,n\}$ for $n \geq 0$, and whose morphisms are order preserving functions.  The category of \emph{simplicial sets} is then the presheaf category $\textbf{sSet} := \textbf{Set}^{\Delta^{op}}$.
+Let $\Delta$ be the simplex category.  That is, $\Delta$ is the category whose objects are linearly ordered sets $[n]=\{0,1,.dots,n\}$ for $n \geq 0$, and whose morphisms are order preserving functions.  The category of \emph{simplicial sets} is then the presheaf category $\textbf{sSet} := \textbf{Set}^{\Delta^{op}}$.  For more information on this category, see \cite{Rie08,May67,Fri12}.
 
 \subsection{Description of Model}
 
