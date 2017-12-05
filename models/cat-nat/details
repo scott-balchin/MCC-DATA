@@ -11,7 +11,7 @@ There is a cofibrantly generated model structure on $\textbf{Cat}$, called the \
 \item Fibration if it is an isofibration.
 \item Cofibration if it is injective on objects.
 \end{itemize}
-The generating cofibrations are given by $u \colon \emptyset \to \mathbf{0}$,$v \colon \mathbf{1}^\cdot \to \mathbf{1}$ and $u \mathbf{P} \emptyset \to \mathbf{1}$. Here, $\mathbf{0}$ is the category with a single object and its identity arrow, $\mathbf{1}$ is the ctegory with two objects and a single non-identity arrow between them, $\mathbf{1}^\cdot$ is the maximal subcategory of $\mathbf{1}$ not containing this map, and $\mathbf{P}$ is the category consisting of a pair of parallel arrows.
+The generating cofibrations are given by $u \colon \emptyset \to \mathbf{0}$, $v \colon \mathbf{1}^\cdot \to \mathbf{1}$ and $w \mathbf{P} \to \mathbf{1}$. Here, $\mathbf{0}$ is the category with a single object and its identity arrow, $\mathbf{1}$ is the ctegory with two objects and a single non-identity arrow between them, $\mathbf{1}^\cdot$ is the maximal subcategory of $\mathbf{1}$ not containing this map, and $\mathbf{P}$ is the category consisting of a pair of parallel arrows.
 \end{proposition}
 
 Clearly every category is both fibrant and cofibrant in this model structure.
