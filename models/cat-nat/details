@@ -36,4 +36,5 @@ The model structure $\textbf{Cat}_\text{Nat}$ is a simplicial model category.
 
 \begin{itemize}
 \item This model structure has the interesting propery that it is canonical. That is, it is the only model structure on $\textbf{Cat}$ with these weak equivalences~\cite{Pri12}.  
+\item See also the discussion on MathOverflow which inspired the above article \url{https://mathoverflow.net/questions/18744/is-model-structure-on-catset-unique}.
 \end{itemize}
