@@ -1,1 +1,20 @@
-details go here
+\subsection{Description of the Underlying Category}
+
+We will denote by $\textbf{Cat}$ the (large) 1-category whose objects are small categories and whose morphisms are functors.
+
+\subsection{Description of Model}
+
+\begin{proposition}[{\cite[Theorem 3.1]{Rez96}}]
+There is a cofibrantly generated model structure on $\textbf{Cat}$, called the \emph{natural model structure}, and denoted $\textbf{Cat}_\text{Nat}$, where a functor $f \colon X \to Y$ is a:
+\begin{itemize}
+\item Weak equivalence if it is an equivalence of categories.
+\item Fibration if it is an isofibration.
+\item Cofibration if it is injective on objects.
+\end{itemize}
+\end{proposition}
+
+\subsection{Additional Information}
+
+\begin{itemize}
+\item This model structure has the interesting propery that it is canonical. That is, it is the only model structure on $\textbf{Cat}$ with these weak equivalences~\cite{Pri12}.  
+\end{itemize}
