@@ -41,14 +41,23 @@ Let $N \colon \textbf{Cat} \to \widehat{\Delta}$ denote the nerve functor with l
 \end{equation*}
 
 \begin{proposition}[{\cite[\S 3]{Tho80}}]
-	There is a model structure on $\textbf{Cat}$ where a functor $F \colon \mathcal{C} \to \mathcal{D}$ is a:
+	There is a cofibrantly generated model structure on $\textbf{Cat}$ where a functor $F \colon \mathcal{C} \to \mathcal{D}$ is a:
 	\begin{itemize}
 		\item Weak equivalence if $\text{Ex}^2\text{N}(F) \colon \text{Ex}^2\text{N}(\mathcal{C}) \to \text{Ex}^2\text{N}(\mathcal{D})$ is a weak equivalence in $\widehat{\Delta}$.
 		\item Fibration if $\text{Ex}^2\text{N}(F) \colon \text{Ex}^2\text{N}(\mathcal{C}) \to \text{Ex}^2\text{N}(\mathcal{D})$ is a fibration in $\widehat{\Delta}$.
 		\item Cofibration if it has the LLP with respect to trivial fibrations.
 	\end{itemize}
+	The generating cofibrations are given by $\{\text{cSd}^2 \partial \Delta[n] \to \text{cSd}^2 \Delta[n] \}$ and generating trivial cofibrations $\{\text{cSd}^2 \partial \Lambda^i[n] \to \text{cSd}^2 \Delta[n] \}$. 
 	We call this model structure the \emph{Thomason model structure on $\textbf{Cat}$} and denote it $\textbf{Cat}_\text{Thom}$.
 \end{proposition}
+
+A highly detailed proof of the above result can also be found in \cite[Theorem 6.3]{FioPao10}.
+
+\begin{proposition}[{\cite[Corollary 5.5]{Tho80}}]
+$\textbf{Cat}_\text{Thom}$ is a proper model category.
+\end{proposition}
+
+The cofibrant objects in this model structure are exactly posets, this is explored in~\cite{BruPeg16}.  The fibrant objects do not have a nice description, but work in the direction of describing them can be found at~\cite{MeiOzo15}.
 
 \subsection{Additional Information}
 
