@@ -1,6 +1,6 @@
 \subsection{Description of the Underlying Category}
 
-The \textit{cyclic category} is the category $\dC$ equipped with an embedding $i \colon \Delta \to \Delta \mathfrak{C}$ such that:
+The \textit{cyclic category} is the category $\Delta \mathfrak{C}$ equipped with an embedding $i \colon \Delta \to \Delta \mathfrak{C}$ such that:
 \begin{enumerate}
 \item The functor $i$ is bijective on objects (i.e., $\text{Ob}(\Delta \mathfrak{C}) = \text{Ob}(\Delta)$).
 \item Any morphism $u \colon i[m] \to i[n]$ in $\Delta \mathfrak{C}$ can be uniquely written as $i(\phi) \circ g$ where $\phi \colon [m] \to [n]$ is a morphism in $\Delta$ and $g \in C_{n+1}$.  We call this decomposition the \textit{canonical decomposition}.  We will denote by $\tau_n$ the generator of $C_{n+1}$.
